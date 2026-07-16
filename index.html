@@ -510,9 +510,9 @@ const GRID = '#30363d';
 const TEXT = '#8b949e';
 const fontFamily = 'Inter, system-ui, sans-serif';
 
-const DRIVE_FILE_ID = '1KR69fAwacLOGSxNLYHmtYagGDP9Sk9iD';
+const DRIVE_FILE_ID = '1VWEmCIdthblgDjv7rRpo1tZo5OUtJchR';
 // Google Sheets export URL — permite CORS desde cualquier origen cuando el archivo es público
-const DRIVE_URL = `https://docs.google.com/spreadsheets/d/1MYOqG_VmaymijJvQ6wlXey8uMw-Sk1pm/export?format=xlsx&single=true`;
+const DRIVE_URL = `https://docs.google.com/spreadsheets/d/${DRIVE_FILE_ID}/export?format=xlsx&single=true`;
 
 async function syncDrive() {
   const btn      = document.getElementById('sync-btn');
